@@ -1,0 +1,22 @@
+body {
+  background: #272727;
+  height: 100vh;
+  width: 100vw;
+
+  overflow: hidden;
+}
+
+*::-webkit-scrollbar {
+  width: 3px;
+  background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    content: 'This app was built primarily for desktop screens, please view on a bigger resolution <3 - Erin'
+  }
+}
